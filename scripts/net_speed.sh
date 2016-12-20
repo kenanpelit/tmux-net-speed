@@ -9,6 +9,7 @@ main()
     local upload=$("$CURRENT_DIR/upload_speed.sh")
 
     # TODO - make the text format configurable
-    printf "D:%10s U:%10s" "$download" "$upload"
+    #printf "D:%10s U:%10s" "$download" "$upload"
+    printf "#[fg=#666666]⇣%10s #[fg=#663366]║ #[fg=#666666]⇡%10s " "$download" "$upload"
 }
 main
